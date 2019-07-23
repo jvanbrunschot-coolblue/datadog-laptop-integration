@@ -1,0 +1,29 @@
+{
+  "display_name": "laptop",
+  "maintainer": "jamievbrunschot@gmail.com",
+  "manifest_version": "1.0.0",
+  "name": "laptop",
+  "metric_prefix": "laptop.",
+  "metric_to_check": "",
+  "creates_events": false,
+  "short_description": "",
+  "guid": "36b3d60f-b5d1-4c5a-af2c-d23d1c68dd3a",
+  "support": "contrib",
+  "supported_os": [
+    "linux",
+    "mac_os",
+    "windows"
+  ],
+  "public_title": "Datadog-laptop Integration",
+  "categories": [
+    ""
+  ],
+  "type": "check",
+  "is_public": false,
+  "integration_id": "laptop",
+  "assets": {
+    "dashboards": {},
+    "monitors": {},
+    "service_checks": "assets/service_checks.json"
+  }
+}
